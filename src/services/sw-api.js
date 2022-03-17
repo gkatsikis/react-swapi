@@ -4,3 +4,4 @@ export function getAllStarships() {
   return fetch(`${baseUrl}/starships/`)
   .then(res => res.json())
 }
+
