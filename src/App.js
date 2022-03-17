@@ -8,8 +8,8 @@ function App() {
   return (
     <>
       <h1>Star Wars Starships</h1>
-      <StarshipList />
       <Routes>
+        <Route path="/" element={<StarshipList />} />
         <Route path="/starship" element={<StarshipDetails />} />
       </Routes>
     </>

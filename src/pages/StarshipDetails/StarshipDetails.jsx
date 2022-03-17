@@ -16,6 +16,8 @@ const StarshipDetails = (props) => {
     <>
       <h1>Starship Details</h1>
       <h2>{starshipDetails.name}</h2>
+      <h2>{starshipDetails.model}</h2>
+      <a href="/">Return to Starship List</a>
     </>
    );
 }
