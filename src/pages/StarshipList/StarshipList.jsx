@@ -19,8 +19,9 @@ const StarshipList = (props) => {
         <Link
         to="/starship"
         state={{ starship }}
+        key={starship['name']}
         >
-        <div key={starship.index}>
+        <div>
           {starship['name']}
         </div>
         </Link>
