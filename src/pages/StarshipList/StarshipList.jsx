@@ -14,14 +14,14 @@ const StarshipList = (props) => {
     <>
     {starshipList.length ? 
     <>
-      <h2>List of Starships</h2>
+      <h2 className="sub-heading">List of Starships</h2>
       {starshipList.map((starship) => (
         <Link
         to="/starship"
         state={{ starship }}
         key={starship['name']}
         >
-        <div>
+        <div className="name">
           {starship['name']}
         </div>
         </Link>

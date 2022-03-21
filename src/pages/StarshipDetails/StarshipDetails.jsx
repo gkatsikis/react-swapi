@@ -14,12 +14,23 @@ const StarshipDetails = (props) => {
 
   return ( 
     <>
-      <h1>Starship Details</h1>
-      <h2>{starshipDetails.name}</h2>
-      <h2>{starshipDetails.model}</h2>
-      <a href="/">Return to Starship List</a>
+      
+      <h1 className="sub-heading">Starship Details</h1>
+      <div className="details">
+      {starshipDetails.name ?
+      <>
+      <h2>Name: {starshipDetails.name}</h2>
+      <h2>Model: {starshipDetails.model}</h2>
+      <a className="details" href="/">Return to Starship List</a>
+      </>
+      :
+      <>
+      <h2>Loading details....</h2>
+      </>
+    }
+    </div>
     </>
    );
 }
- 
+
 export default StarshipDetails;

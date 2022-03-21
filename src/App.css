@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+.heading {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sub-heading {
+  text-align: center;
+}
+
+.name {
+  background-color: #2F4F4F;
+  color: white;
+  text-decoration: none;
+  margin: 6px;
+  display: inline-block;
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  justify-content: center;
+}
+
+.details {
+background-color: #2F4F4F;
+color: white;
+width: 400px;
+height: 200px;
+text-align: center;
+text-decoration: none;
+
+}
