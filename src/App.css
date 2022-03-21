@@ -51,21 +51,31 @@
 .name {
   background-color: #2F4F4F;
   color: white;
-  text-decoration: none;
   margin: 6px;
-  display: inline-block;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
   width: 200px;
   height: 100px;
-  text-align: center;
-  justify-content: center;
+  font-weight: bold;
+  
 }
 
 .details {
 background-color: #2F4F4F;
 color: white;
-width: 400px;
 height: 200px;
-text-align: center;
 text-decoration: none;
+text-align: center;
+padding-top: 30px;
+width: 50%;
+margin: 0 auto;
+}
 
+.return {
+  background-color: #2F4F4F;
+  color: white;
+  text-decoration: none;
+  text-align: center;
 }

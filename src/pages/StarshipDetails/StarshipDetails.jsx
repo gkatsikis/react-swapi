@@ -21,7 +21,7 @@ const StarshipDetails = (props) => {
       <>
       <h2>Name: {starshipDetails.name}</h2>
       <h2>Model: {starshipDetails.model}</h2>
-      <a className="details" href="/">Return to Starship List</a>
+      <a className="return" href="/">Return to Starship List</a>
       </>
       :
       <>
